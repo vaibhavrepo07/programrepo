@@ -2,16 +2,18 @@
 using namespace std;
 int main()
 {
-	int x, y;
-	cout<<"Enter two integer numbers"<<endl;
+	int n=5;
 	
-	cin>>x;
-	
-	cin>>y;
-	
-	cout<<"Number are ";
-	
-	cout<<y<<endl;
-	
+	for(int i=1;i<=n;i++)
+	{
+		for(int j=1;j<=n;j++)
+		{
+			if(j<=n/2)
+			cout<<"0";
+			else
+			cout<<"1";
+		}
+		cout<<endl;
+	}
 	return 0;
 }
